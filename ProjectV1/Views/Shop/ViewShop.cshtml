@@ -1,0 +1,76 @@
+﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model ProjectV1.Models.Item
+@{
+    ViewData["Title"] = "ViewShop";
+    Layout = "~/Views/Shared/_Layout - shop.cshtml";
+}
+
+<fieldset class="items">
+
+    <div style="display:flex ; flex-flow:row">
+        <h2>Shop</h2>   
+         <input type="text" placeholder="Search.."> 
+    </div>
+
+    <br />
+
+    <h3>List 1</h3>
+    <form role="listitem">
+        <div class="items list-group-horizontal" style="display:flex ; flex-flow:row ; border:solid 0.2px ; justify-content:space-around">
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label> 
+                <label asp-for="Price"></label>
+                <div style="background-color:mistyrose ; padding:50px ; border:solid 0.2px ;
+                      border-top:solid 0.2px ; border-color:darkgrey"><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color: mistyrose; padding: 50px; border:solid 0.2px; border-color: darkgrey "><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color: mistyrose; padding: 50px; border:solid 0.2px; border-color: darkgrey "><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color:mistyrose ; padding:50px ;
+                      border:solid 0.2px ; border-color:darkgrey"><img src="" alt=" img" /></div>
+            </div>
+        </div>
+
+        <br />
+
+        <h3>List 2</h3>
+        <div class="items list-group-horizontal" style="display:flex ; flex-flow:row ; border:solid 0.2px ; justify-content:space-around">
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color:mistyrose ; padding:50px ; border:solid 0.2px ;
+                      border-top:solid 0.2px ; border-color:darkgrey"><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color: mistyrose; padding: 50px; border:solid 0.2px; border-color: darkgrey "><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color: mistyrose; padding: 50px; border:solid 0.2px; border-color: darkgrey "><img src="" alt=" img" /></div>
+            </div>
+            <div class="form-group" style="display:flex ; flex-flow:column">
+                <label asp-for="Name"></label>
+                <label asp-for="Price"></label>
+                <div style="background-color:mistyrose ; padding:50px ;
+                      border:solid 0.2px ; border-color:darkgrey"><img src="" alt=" img" /></div>
+            </div>
+        </div>
+
+    </form>
+    
+
+</fieldset>
+
